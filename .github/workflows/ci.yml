@@ -25,6 +25,5 @@ jobs:
             - name: check formation
               run: npm run format:check
 
-
             - name: Run tests
               run: npm test
