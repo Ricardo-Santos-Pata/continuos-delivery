@@ -24,6 +24,9 @@ jobs:
 
             - name: check formation
               run: npm run format:check
+            
+            - name: run formatter
+              run: npm prettier . --write
 
             - name: Run tests
               run: npm test
