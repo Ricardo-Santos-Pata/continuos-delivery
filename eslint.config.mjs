@@ -9,9 +9,9 @@ export default defineConfig([
         extends: ['js/recommended'],
         languageOptions: { globals: globals.node },
         rules: {
-            "prefer-const": "error",
-            "no-unused-vars": "error"
-        }
+            'prefer-const': 'error',
+            'no-unused-vars': 'error',
+        },
     },
     { files: ['**/*.js'], languageOptions: { sourceType: 'commonjs' } },
 ]);
