@@ -2,7 +2,8 @@ const express = require('express');
 const app = express();
 
 app.get('/', (req, res) => {
-    let msg = 'needs to fail';
+    const msg = 'needs to fail';
+    console.log(msg)
     res.send('Works on my machine.');
 });
 
