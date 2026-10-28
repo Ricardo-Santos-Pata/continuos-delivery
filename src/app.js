@@ -15,7 +15,6 @@ app.get('/', async (req, res) => {
   res.sendFile(join(publicDir, 'index.html'));
 });
 
-
 app.get('/health', (req, res) => {
   res.status(503).json({
     status: 'error',
@@ -23,7 +22,6 @@ app.get('/health', (req, res) => {
       'The garden gnomes have invaded our systems and have broken everything!',
   });
 });
-
 
 app.post('/api/subscribers', async (req, res) => {
   try {
