@@ -7,3 +7,4 @@ const subscribers = pgTable('subscribers', {
 });
 
 module.exports = { subscribers };
+// this is a test
