@@ -15,6 +15,13 @@
       "when": 1793201527263,
       "tag": "0001_lazy_mentor",
       "breakpoints": true
+    },
+    {
+      "idx": 2,
+      "version": "7",
+      "when": 1793204394877,
+      "tag": "0002_careless_slyde",
+      "breakpoints": true
     }
   ]
 }
